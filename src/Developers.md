@@ -1,32 +1,5 @@
-# Welcome to SmartHomeDIY
+# Developers
 
-Project Description
-
-### Smart Home DIY ###
-This project is a DIY home automation, you can have multiple Arduino stations controlling anything at you home from your phone (webpage currently)
-The Arduino stations should be flashed with the attached custom Bootloader to enable remote upload of sketches from your development computer via RF24 (instead of tearing the wall apart each time) also know as OTA (Over the Air update).
-
-Controlling you home is done via your phone browser or any other browser throw a wep application.
-The web application is hosted on a Raspberry Pi station, running nodejs.
-nodejs 'talks' to a serial bluetooth attached to the Raspberry Pi GPIOs
-the Serial Bluetooth sends the data to an arduino station gateway which dispatches the messages to
-the relevant Arduino endPoint station using RF24 module.
-each endpoint station has a unique address and a set of command it knows to handle.
-
-
-This Project is managed with [trello](https://trello.com/b/8ODwVl67/diy-smart-home)
-
-The code is managed and developed using [Visual Studio Code](https://code.visualstudio.com/) [Multi-root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces) and [platform.io](https://platformio.org/)
-This combination allows to develop the server side (and sync update using ssh) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
-It also offers tasks to compile and flash the bootloader and even a predefined theme.
-platform.io also allowed my to have a common networking code for all Arduino station in one common directory which all Arduino projects (stations) can reference, keeping the protocol update changes easy and safe.
-
-
--------- TBD DOCS LAYOUT EXAMPLES STATIONS---------
-
-For mote info read here:
-
-https://www.2bitornot2bit.com/blog/smart-your-home-up-with-raspberry-pi-nodejs-bluetooth-serial-and-rf24
 
 ### Code layout ###
 

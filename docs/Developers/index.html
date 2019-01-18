@@ -105,7 +105,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#welcome-to-smarthomediy" tabindex="1" class="md-skip">
+      <a href="#developers" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -299,13 +299,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#smart-home-diy" title="Smart Home DIY" class="md-nav__link">
-    Smart Home DIY
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#code-layout" title="Code layout" class="md-nav__link">
     Code layout
   </a>
@@ -386,13 +379,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#smart-home-diy" title="Smart Home DIY" class="md-nav__link">
-    Smart Home DIY
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#code-layout" title="Code layout" class="md-nav__link">
     Code layout
   </a>
@@ -458,25 +444,7 @@
               
                 
                 
-                <h1 id="welcome-to-smarthomediy">Welcome to SmartHomeDIY</h1>
-<p>Project Description</p>
-<h3 id="smart-home-diy">Smart Home DIY</h3>
-<p>This project is a DIY home automation, you can have multiple Arduino stations controlling anything at you home from your phone (webpage currently)
-The Arduino stations should be flashed with the attached custom Bootloader to enable remote upload of sketches from your development computer via RF24 (instead of tearing the wall apart each time) also know as OTA (Over the Air update).</p>
-<p>Controlling you home is done via your phone browser or any other browser throw a wep application.
-The web application is hosted on a Raspberry Pi station, running nodejs.
-nodejs 'talks' to a serial bluetooth attached to the Raspberry Pi GPIOs
-the Serial Bluetooth sends the data to an arduino station gateway which dispatches the messages to
-the relevant Arduino endPoint station using RF24 module.
-each endpoint station has a unique address and a set of command it knows to handle.</p>
-<p>This Project is managed with <a href="https://trello.com/b/8ODwVl67/diy-smart-home">trello</a></p>
-<p>The code is managed and developed using <a href="https://code.visualstudio.com/">Visual Studio Code</a> <a href="https://code.visualstudio.com/docs/editor/multi-root-workspaces">Multi-root Workspaces</a> and <a href="https://platformio.org/">platform.io</a>
-This combination allows to develop the server side (and sync update using ssh) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
-It also offers tasks to compile and flash the bootloader and even a predefined theme.
-platform.io also allowed my to have a common networking code for all Arduino station in one common directory which all Arduino projects (stations) can reference, keeping the protocol update changes easy and safe.</p>
-<p>-------- TBD DOCS LAYOUT EXAMPLES STATIONS---------</p>
-<p>For mote info read here:</p>
-<p>https://www.2bitornot2bit.com/blog/smart-your-home-up-with-raspberry-pi-nodejs-bluetooth-serial-and-rf24</p>
+                <h1 id="developers">Developers</h1>
 <h3 id="code-layout">Code layout</h3>
 <h3 id="flashing-remote-station-from-vscode-script-task-tbd">Flashing remote station from VSCODE script (task) TBD</h3>
 <ul>
