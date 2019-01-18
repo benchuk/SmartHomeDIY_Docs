@@ -1,9 +1,23 @@
 # Welcome to SmartHomeDIY
 
-Project Description
+This project is a DIY home automation framework.
+With this system you will be able to control your home light, Air conditioning, TV, water heater any many more devices (IR, wall sockets, and light switches are only a few).
+The system is Arduino and Raspberry Pi based.
+You will be able to control your house from the internal WiFi network as well as from the Internet For internet access you will have to use a DSN service such as [no-ip](https://www.noip.com/free?gclid=Cj0KCQiAj4biBRC-ARIsAA4WaFiQeMklZ1TYbty1hthazzI8TCtS24gkB4rJyCSRdwulj-RzcK-DRw8aAsyBEALw_wcB&utm_campaign=free-dynamic-dns&utm_medium=cpc&utm_source=adwords&utm_term=free-dynamic-dns)
 
-### Smart Home DIY ###
-This project is a DIY home automation, you can have multiple Arduino stations controlling anything at you home from your phone (webpage currently)
+
+You can have multiple Arduino stations controlling anything at you home from your phone, iPad or Desktop(currently using a web page only).
+
+### Installing the framework @ your home
+
+Installing this framework will require knowledge with Basic electronics, soldering.
+
+<span style="color:red">**Installing the light switch control stations will require in experience with High voltage 220V/120V circuits**</span>.<br/>
+<span style="color:orange">If you do not know how to handle High Voltage, please do not!</span>.
+
+But the good news you can still use The IR stations to control AC, TV and such.
+
+
 The Arduino stations should be flashed with the attached custom Bootloader to enable remote upload of sketches from your development computer via RF24 (instead of tearing the wall apart each time) also know as OTA (Over the Air update).
 
 Controlling you home is done via your phone browser or any other browser throw a wep application.
@@ -21,63 +35,12 @@ This combination allows to develop the server side (and sync update using ssh) a
 It also offers tasks to compile and flash the bootloader and even a predefined theme.
 platform.io also allowed my to have a common networking code for all Arduino station in one common directory which all Arduino projects (stations) can reference, keeping the protocol update changes easy and safe.
 
+If you are a developer and would like to contribute to the code
+Checkout the documentation [here](Developers.md)
 
--------- TBD DOCS LAYOUT EXAMPLES STATIONS---------
+if you are a user wishing to use the platform at your own hose 
+Checkout the documentation [here](Users.md)
 
-For mote info read here:
+![Desktop UI](/style/Smart_Home_DIY_Desktop.jpg)
 
-https://www.2bitornot2bit.com/blog/smart-your-home-up-with-raspberry-pi-nodejs-bluetooth-serial-and-rf24
-
-### Code layout ###
-
-### Flashing remote station from VSCODE script (task) TBD ###
-
-* My [Youtube video](https://youtu.be/8xJqVeZkEw8) to get more info.
-* Also read [here](https://www.2bitornot2bit.com/blog/arduino-bootloader-with-ota-over-the-air-support-over-nrf24l01) to get a better understanding 
-
-
-
-### How do I get set up? ###
-
-* -------- TBD ---------
-* -------- TBD ---------
-* -------- TBD ---------
-* -------- TBD ---------
-* -------- TBD ---------
-* -------- TBD ---------
-
-
-
-### IR UNIVERSIAL STATION ###
-![SmartHomeDIY/SmartHome/Other/Models_Images/IR_STATION/IR_STATION_MODEL1.PNG](/SmartHome/Other/Models_Images/IR_STATION/IR_STATION_MODEL1.PNG)
-
-### PI SERVER WITH NODE AND SERIAL COMMANDS SENT USING BT TO BT TO ANT DISPATCH STATION ###
-![PI_STATION_MODEL1.PNG](https://bitbucket.org/repo/86Rb8B/images/3356847782-PI_STATION_MODEL1.PNG)
-
-### BT TO ANT DISPATCH SYSTEM ###
-![BT_To_Ant_Dispatch_Station_model_bb.jpg](https://bitbucket.org/repo/86Rb8B/images/3146339184-BT_To_Ant_Dispatch_Station_model_bb.jpg)
-
-### Bootloader modifications for OTA
-https://youtu.be/8xJqVeZkEw8
-
-
-Planned features list:
-
-* RF24
-* IR
-* Links:
-* Control and configure Smart House using nodejs website from mobile.
-* Node Running on Raspberry Pi using serial to send commands to other andruino using the Bluetooth HC05 (serial to Bluetooth chip).
-* Auto light using light sensors.
-* Water system (time and light configuration)
-* Shutters and shades conrol.
-* House Light control
-* Clap to turn off/on lights.
-* Security camera and streaming.
-* Music remote control.
-* Hot water auto and timer control. (turn boiler for x hours - or everyday from hour to hour)
-* LCD Screen on main arduino to monitor and status.
-* In paraller to manual swithces.
-* IR Control for Aircondition - temp sensors. weather forcast and outside temperator and humidity - start aircondition for x hours and auto close - with temp variation plans.
-* Remote update the other arduinos from ANT.
-* Send notifications when dish washer is done (no power consumption)
+![Mobile UI](/style/phone_ui.JPG)
