@@ -9,6 +9,18 @@ For internet access you will have to use a DNS service such as [no-ip](https://w
 You can have multiple Arduino stations controlling anything at you home.</br>
 Control is done via your phone, iPad or Desktop(currently using a web page only).
 
+### Other Home automation system
+
+* 
+
+### Why This system
+
+* Hardware and software open source.
+* Simple communication protocol.
+* Ability the spread the system at your home with in multiple ways to get good Wireless communications range.
+* Simple control from any device (browser) with mobile support.
+* Easy API for external apps to activate commands such as [IFTTT](http://)
+
 ### Installing the framework @ your home
 
 Installing this framework will require knowledge with Basic electronics, soldering.
