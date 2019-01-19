@@ -34,7 +34,7 @@ This Project is managed with [trello](https://trello.com/b/8ODwVl67/diy-smart-ho
 The code is managed and developed using [Visual Studio Code](https://code.visualstudio.com/) [Multi-root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces) and [platform.io](https://platformio.org/)
 This combination allows to develop the server side (and sync updates using ssh extension called [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
 It also offers tasks to compile and flash the bootloader and even a predefined theme.
-platform.io also allowed my to have a common networking code for all Arduino station in one common directory which all Arduino projects (stations) can reference, keeping the protocol update changes easy and safe.
+[platform.io](https://platformio.org/) also allowed my to have a common networking code for all Arduino stations in one common directory which all Arduino projects (stations) can reference, keeping the protocol updates and changes easy and safe.
 
 If you are a developer and would like to contribute to the code
 Checkout the documentation [here](Developers.md)
