@@ -56,7 +56,7 @@ each endpoint station has a unique address and a set of command it knows to hand
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=8xJqVeZkEw8
 " target="_blank"><img src="http://img.youtube.com/vi/8xJqVeZkEw8/0.jpg" 
-alt="Arduino OTA" width="240" height="180" border="10" /></a>
+alt="Arduino OTA" width="2340" height="280" border="20" /></a>
 
 
 Planned features list:
