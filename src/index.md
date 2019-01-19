@@ -9,7 +9,7 @@ For internet access you will have to use a DNS service such as [no-ip](https://w
 You can have multiple Arduino stations controlling anything at you home.</br>
 Control is done via your phone, iPad or Desktop(currently using a web page only).
 
-### Other Home automation system
+### Other Home automation systems
 
 * <a href="https://www.home-assistant.io/" target="_blank">Home Assistant</a>
 * <a href="https://www.openhab.org/ " target="_blank">OpenHab</a>
