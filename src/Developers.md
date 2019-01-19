@@ -4,7 +4,7 @@
 ### Code layout ###
 
 The code is managed and developed using [Visual Studio Code](https://code.visualstudio.com/) [Multi-root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces) and [platform.io](https://platformio.org/)
-This combination allows to develop the server side (and sync update using ssh) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
+This combination allows to develop the server side (and sync updates using ssh extension called [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
 It also offers tasks to compile and flash the bootloader and even a predefined theme.
 platform.io also allowed my to have a common networking code for all Arduino station in one common directory which all Arduino projects (stations) can reference, keeping the protocol update changes easy and safe.
 
@@ -16,7 +16,7 @@ For issues and bugs please open on [Github](https://github.com/benchuk/SmartHome
 
 # system layout
 
-Controlling you home is done via your phone browser or any other browser throw a wep application.
+Controlling you home is done via a web application from your phone browser or any other browser.
 The web application is hosted on a Raspberry Pi station, running nodejs.
 nodejs 'talks' to a serial bluetooth attached to the Raspberry Pi GPIOs
 the Serial Bluetooth sends the data to an arduino station gateway which dispatches the messages to

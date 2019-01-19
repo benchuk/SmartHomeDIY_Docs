@@ -362,10 +362,12 @@
                 
                 <h1 id="welcome-to-smarthomediy">Welcome to SmartHomeDIY</h1>
 <p>This project is a DIY home automation framework.
-With this system you will be able to control your home light, Air conditioning, TV, water heater any many more devices (IR, wall sockets, and light switches are only a few).
+With this system you will be able to control your home lights, Air conditioning, TV, water heater any many more devices (IR, wall sockets, and light switches are only a few).
 The system is Arduino and Raspberry Pi based.
-You will be able to control your house from the internal WiFi network as well as from the Internet For internet access you will have to use a DSN service such as <a href="https://www.noip.com/free?gclid=Cj0KCQiAj4biBRC-ARIsAA4WaFiQeMklZ1TYbty1hthazzI8TCtS24gkB4rJyCSRdwulj-RzcK-DRw8aAsyBEALw_wcB&amp;utm_campaign=free-dynamic-dns&amp;utm_medium=cpc&amp;utm_source=adwords&amp;utm_term=free-dynamic-dns">no-ip</a></p>
-<p>You can have multiple Arduino stations controlling anything at you home from your phone, iPad or Desktop(currently using a web page only).</p>
+You will be able to control your house from the internal WiFi network as well as from the Internet.</br>
+For internet access you will have to use a DNS service such as <a href="https://www.noip.com/free?gclid=Cj0KCQiAj4biBRC-ARIsAA4WaFiQeMklZ1TYbty1hthazzI8TCtS24gkB4rJyCSRdwulj-RzcK-DRw8aAsyBEALw_wcB&amp;utm_campaign=free-dynamic-dns&amp;utm_medium=cpc&amp;utm_source=adwords&amp;utm_term=free-dynamic-dns">no-ip</a></p>
+<p>You can have multiple Arduino stations controlling anything at you home.</br>
+Control is done via your phone, iPad or Desktop(currently using a web page only).</p>
 <h3 id="installing-the-framework-your-home">Installing the framework @ your home</h3>
 <p>Installing this framework will require knowledge with Basic electronics, soldering.</p>
 <p><span style="color:red"><strong>Installing the light switch control stations will require in experience with High voltage 220V/120V circuits</strong></span>.<br/>
@@ -380,7 +382,7 @@ the relevant Arduino endPoint station using RF24 module.
 each endpoint station has a unique address and a set of command it knows to handle.</p>
 <p>This Project is managed with <a href="https://trello.com/b/8ODwVl67/diy-smart-home">trello</a></p>
 <p>The code is managed and developed using <a href="https://code.visualstudio.com/">Visual Studio Code</a> <a href="https://code.visualstudio.com/docs/editor/multi-root-workspaces">Multi-root Workspaces</a> and <a href="https://platformio.org/">platform.io</a>
-This combination allows to develop the server side (and sync update using ssh) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
+This combination allows to develop the server side (and sync updates using ssh extension called <a href="https://marketplace.visualstudio.com/items?itemName=liximomo.sftp">sftp</a>) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
 It also offers tasks to compile and flash the bootloader and even a predefined theme.
 platform.io also allowed my to have a common networking code for all Arduino station in one common directory which all Arduino projects (stations) can reference, keeping the protocol update changes easy and safe.</p>
 <p>If you are a developer and would like to contribute to the code

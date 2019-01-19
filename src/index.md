@@ -1,12 +1,13 @@
 # Welcome to SmartHomeDIY
 
 This project is a DIY home automation framework.
-With this system you will be able to control your home light, Air conditioning, TV, water heater any many more devices (IR, wall sockets, and light switches are only a few).
+With this system you will be able to control your home lights, Air conditioning, TV, water heater any many more devices (IR, wall sockets, and light switches are only a few).
 The system is Arduino and Raspberry Pi based.
-You will be able to control your house from the internal WiFi network as well as from the Internet For internet access you will have to use a DSN service such as [no-ip](https://www.noip.com/free?gclid=Cj0KCQiAj4biBRC-ARIsAA4WaFiQeMklZ1TYbty1hthazzI8TCtS24gkB4rJyCSRdwulj-RzcK-DRw8aAsyBEALw_wcB&utm_campaign=free-dynamic-dns&utm_medium=cpc&utm_source=adwords&utm_term=free-dynamic-dns)
+You will be able to control your house from the internal WiFi network as well as from the Internet.</br>
+For internet access you will have to use a DNS service such as [no-ip](https://www.noip.com/free?gclid=Cj0KCQiAj4biBRC-ARIsAA4WaFiQeMklZ1TYbty1hthazzI8TCtS24gkB4rJyCSRdwulj-RzcK-DRw8aAsyBEALw_wcB&utm_campaign=free-dynamic-dns&utm_medium=cpc&utm_source=adwords&utm_term=free-dynamic-dns)
 
-
-You can have multiple Arduino stations controlling anything at you home from your phone, iPad or Desktop(currently using a web page only).
+You can have multiple Arduino stations controlling anything at you home.</br>
+Control is done via your phone, iPad or Desktop(currently using a web page only).
 
 ### Installing the framework @ your home
 
@@ -31,7 +32,7 @@ each endpoint station has a unique address and a set of command it knows to hand
 This Project is managed with [trello](https://trello.com/b/8ODwVl67/diy-smart-home)
 
 The code is managed and developed using [Visual Studio Code](https://code.visualstudio.com/) [Multi-root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces) and [platform.io](https://platformio.org/)
-This combination allows to develop the server side (and sync update using ssh) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
+This combination allows to develop the server side (and sync updates using ssh extension called [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)) and the arduino station, including the bootloader code, compilation and flashing, all in one place.
 It also offers tasks to compile and flash the bootloader and even a predefined theme.
 platform.io also allowed my to have a common networking code for all Arduino station in one common directory which all Arduino projects (stations) can reference, keeping the protocol update changes easy and safe.
 
