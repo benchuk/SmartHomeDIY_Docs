@@ -78,3 +78,12 @@ Planned features list:
 - [ ]  IR Control for Air Condition - temp sensors. weather forecast and outside temperature and humidity - start Air Condition for x hours and auto close - with temp variation plans.
 - [x]  Remote update the other Arduino station from RF24.
 - [ ]  Send notifications when dish washer is done (no power consumption)
+
+
+
+## How to install
+
+* [Download and install Visual Studio code](https://code.visualstudio.com/download)
+* `git clone https://github.com/benchuk/SmartHomeDIY.git` - clone project.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs help` - Print this help message.
