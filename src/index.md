@@ -42,6 +42,6 @@ Checkout the documentation [here](Developers.md)
 if you are a user wishing to use the platform at your own hose 
 Checkout the documentation [here](Users.md)
 
-![Desktop UI](/style/Smart_Home_DIY_Desktop.jpg)
+![Desktop UI](https://github.com/benchuk/SmartHomeDIY_Docs/blob/master/src/style/Smart_Home_DIY_Desktop.jpg?raw=true)
 
-![Mobile UI](/style/phone_ui.JPG)
+![Mobile UI](https://github.com/benchuk/SmartHomeDIY_Docs/blob/master/src/style/phone_ui.jpg?raw=true)
