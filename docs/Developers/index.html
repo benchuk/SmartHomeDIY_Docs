@@ -392,33 +392,34 @@ each endpoint station has a unique address and a set of command it knows to hand
 </ul>
 <h3 id="ir-universal-station-broadlink-or-harmony-hub-like">IR UNIVERSAL STATION (broadlink or harmony hub like)</h3>
 <p><img alt="IR" src="https://github.com/benchuk/SmartHomeDIY/blob/master/SmartHome/Other/Models_Images/IR_STATION/IR_STATION_MODEL1.PNG?raw=true" /></p>
-<h3 id="pi-server-with-node-and-serial-commands-sent-using-bt-to-bt-to-ant-dispatch-station">PI SERVER WITH NODE AND SERIAL COMMANDS SENT USING BT TO BT TO ANT DISPATCH STATION</h3>
+<h3 id="pi-server-with-node-and-serial-commands-sent-using-bt-to-bt-to-rf24-dispatch-station">PI SERVER WITH NODE AND SERIAL COMMANDS SENT USING BT TO BT TO RF24 DISPATCH STATION</h3>
 <p><img alt="PI_STATION" src="https://github.com/benchuk/SmartHomeDIY/blob/master/SmartHome/Other/Models_Images/PI_STATION/PI_STATION_MODEL1.PNG?raw=true" />
 <a href="https://github.com/benchuk/SmartHomeDIY/blob/master/SmartHome/Other/Models_Images/PI_STATION/pi-to-bt-connections.JPG?raw=true">GPIO</a></p>
 <h3 id="gateway-bt-to-rf24-dispatch-system">Gateway: BT TO RF24 DISPATCH SYSTEM</h3>
 <p><img alt="BT_To_RF24" src="https://github.com/benchuk/SmartHomeDIY/blob/master/SmartHome/Other/Models_Images/BT_TO_ANT_DISPATCH_STATION/BT_To_Ant_Dispatch_Station_model_bb.jpg?raw=true" /></p>
 <h3 id="bootloader-modifications-for-ota">Bootloader modifications for OTA</h3>
-<p>https://youtu.be/8xJqVeZkEw8</p>
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&v=8xJqVeZkEw8
+" target="_blank"><img src="http://img.youtube.com/vi/8xJqVeZkEw8/0.jpg" 
+alt="Arduino OTA" width="240" height="180" border="10" /></a></p>
 <p>Planned features list:</p>
 <ul>
-<li>RF24</li>
-<li>IR</li>
-<li>Links:</li>
-<li>Control and configure Smart House using nodejs website from mobile.</li>
-<li>Node Running on Raspberry Pi using serial to send commands to other andruino using the Bluetooth HC05 (serial to Bluetooth chip).</li>
-<li>Auto light using light sensors.</li>
-<li>Water system (time and light configuration)</li>
-<li>Shutters and shades control.</li>
-<li>House Light control</li>
-<li>Clap to turn off/on lights.</li>
-<li>Security camera and streaming.</li>
-<li>Music remote control.</li>
-<li>Hot water auto and timer control. (turn boiler for x hours - or everyday from hour to hour)</li>
-<li>LCD Screen on main arduino to monitor and status.</li>
-<li>In parallel to manual switches.</li>
-<li>IR Control for Air Condition - temp sensors. weather forecast and outside temperature and humidity - start Air Condition for x hours and auto close - with temp variation plans.</li>
-<li>Remote update the other Arduino station from RF24.</li>
-<li>Send notifications when dish washer is done (no power consumption)</li>
+<li>[x]  IR - 'Broadlink' or 'Harmony hub' like - records IR commands and send them on request.</li>
+<li>[x]  Control and configure Smart House using nodejs website from mobile.</li>
+<li>[x]  Node Running on Raspberry Pi using serial to send commands to other Arduino using the Bluetooth HC05 (serial to Bluetooth chip).</li>
+<li>[ ]  Auto light using light sensors.</li>
+<li>[ ]  Plants Water system (time and light configuration)</li>
+<li>[x]  Shutters control.</li>
+<li>[x]  Shades control.</li>
+<li>[x]  House Light control</li>
+<li>[ ]  Clap to turn off/on lights.</li>
+<li>[ ]  Security camera and streaming.</li>
+<li>[ ]  Music remote control.</li>
+<li>[ ]  Hot water auto and timer control. (turn boiler for x hours - or everyday from hour to hour)</li>
+<li>[ ]  LCD Screen on main arduino to monitor and status.</li>
+<li>[x]  On wall Touch switch in parallel to digital control.</li>
+<li>[ ]  IR Control for Air Condition - temp sensors. weather forecast and outside temperature and humidity - start Air Condition for x hours and auto close - with temp variation plans.</li>
+<li>[x]  Remote update the other Arduino station from RF24.</li>
+<li>[ ]  Send notifications when dish washer is done (no power consumption)</li>
 </ul>
                 
                   

@@ -44,4 +44,4 @@ Checkout the documentation [here](Users.md)
 
 ![Desktop UI](https://github.com/benchuk/SmartHomeDIY_Docs/blob/master/src/style/Smart_Home_DIY_Desktop.jpg?raw=true)
 
-![Mobile UI](https://github.com/benchuk/SmartHomeDIY_Docs/blob/master/src/style/phone_ui.jpg?raw=true)
+![Mobile UI](https://github.com/benchuk/SmartHomeDIY_Docs/blob/master/src/style/phone_ui.JPG?raw=true)
