@@ -11,7 +11,7 @@ Control is done via your phone, iPad or Desktop(currently using a web page only)
 
 ### Other Home automation system
 
-* 
+* <a href="https://www.home-assistant.io/" target="_blank">Home Assistant</a> 
 
 ### Why This system
 

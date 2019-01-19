@@ -59,8 +59,6 @@ alt="Arduino OTA" width="340" height="280" border="20" /></a>
 
 
 
-
-
 ## How to install
 
 * [Download and install Visual Studio code](https://code.visualstudio.com/download)
