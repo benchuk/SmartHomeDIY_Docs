@@ -100,25 +100,24 @@ cd ~/.node-red
 
 ![Screenshot](style/homekit.png)
 ￼
-Start node-red
-—————————
+## Start node-red
 node-red-start
 ￼
+You can also setup node-red to start at boot as a service
+TBD
+
 ![Screenshot](style/red-node-start.png)
 
 ## Enable serial for BT communications
-—————————————————————————————
 Disable the console so it will not clatter the serial port to our gateway
 (https://hallard.me/enable-serial-port-on-raspberry-pi/)
 
 
 ## Install the node js http rest api server
-—————————————————————————————
  TBD
 
 
 ## Enable NO-IP
-————————————————
 
 mkdir /home/pi/noip
 cd /home/pi/noip
@@ -138,10 +137,6 @@ sudo noip2 ­-S (Capital “S”)
 Source:
 https://www.noip.com/support/knowledgebase/install-ip-duc-onto-raspberry-pi/
 
-
-
-
 ## Utils
-————————
 Find large files to delete
 du -s * | sort -nr | head (https://raspberrypi.stackexchange.com/questions/7500/how-to-get-a-good-overview-over-used-space)

@@ -267,6 +267,18 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../OTA/" title="Arduino OTA" class="md-nav__link">
+      Arduino OTA
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -367,21 +379,19 @@ sudo apt-get install libavahi-compat-libdnssd-dev</p>
 cd ~/.node-red</p>
 <h2 id="npm-install-node-red-contrib-homekit">npm install node-red-contrib-homekit</h2>
 <p><img alt="Screenshot" src="../style/homekit.png" />
+￼</p>
+<h2 id="start-node-red">Start node-red</h2>
+<p>node-red-start
 ￼
-Start node-red
-—————————
-node-red-start
-￼
-<img alt="Screenshot" src="../style/red-node-start.png" /></p>
+You can also setup node-red to start at boot as a service
+TBD</p>
+<p><img alt="Screenshot" src="../style/red-node-start.png" /></p>
 <h2 id="enable-serial-for-bt-communications">Enable serial for BT communications</h2>
-<p>—————————————————————————————
-Disable the console so it will not clatter the serial port to our gateway
+<p>Disable the console so it will not clatter the serial port to our gateway
 (https://hallard.me/enable-serial-port-on-raspberry-pi/)</p>
 <h2 id="install-the-node-js-http-rest-api-server">Install the node js http rest api server</h2>
-<p>—————————————————————————————
- TBD</p>
+<p>TBD</p>
 <h2 id="enable-no-ip">Enable NO-IP</h2>
-<p>————————————————</p>
 <p>mkdir /home/pi/noip
 cd /home/pi/noip
 wget https://www.noip.com/client/linux/noip-duc-linux.tar.gz
@@ -395,8 +405,7 @@ sudo make install</p>
 <p>Source:
 https://www.noip.com/support/knowledgebase/install-ip-duc-onto-raspberry-pi/</p>
 <h2 id="utils">Utils</h2>
-<p>————————
-Find large files to delete
+<p>Find large files to delete
 du -s * | sort -nr | head (https://raspberrypi.stackexchange.com/questions/7500/how-to-get-a-good-overview-over-used-space)</p>
                 
                   
